@@ -62,13 +62,13 @@ function App() {
     <div className="wrapper">
       <header>
         <img src='./hero.png' alt = "hero-banner"></img>
-        <h1>Find Some Good <span className='text-gradient'>Movies</span> To Watch  </h1>
+        <h1>Find your next  <span className='text-gradient'>flick</span>   </h1>
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
       </header>
 
       <section className='all-movies'>
-        <h2 className='mt-[40px]'>All movies</h2>
+        <h2 className='mt-[40px]'>Top <span className='text-gradient'>Trending</span> </h2>
 
         {isLoading ? (
           <Spinner />
